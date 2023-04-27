@@ -7,6 +7,9 @@ WORKDIR /ChatBot
 # copy requirements.txt file to container 
 COPY requirements.txt requirements.txt 
 
+# expose port 5000
+EXPOSE 5000
+
 # Install requirements 
 RUN pip3 install -r requirements.txt 
 

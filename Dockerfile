@@ -1,5 +1,5 @@
 # set base image 
-From python:3.9 
+From python 
 
 # sets working directory 
 WORKDIR /ChatBot

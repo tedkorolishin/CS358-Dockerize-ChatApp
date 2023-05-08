@@ -4,8 +4,8 @@ FROM python:3.8
 # sets working directory 
 WORKDIR /app
 
-# Copy the requirements.txt contents into the container at /app
-COPY requirements.txt .
+# Copy the contents into the container at /app
+COPY . .
 
 # expose port 5000
 EXPOSE 5000
